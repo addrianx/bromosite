@@ -66,6 +66,10 @@ a .place-prefix {
    background: white;
 }
 
+.box-option .date{
+   width: 80%;
+}
+
 @media screen and (max-width: 991px){
    h2.hero-text{
       margin-top: 5rem;

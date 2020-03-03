@@ -1,0 +1,172 @@
+
+.bg-transparent{
+   background: transparent;
+}
+
+.radius-1rm{
+   border-radius: 1rem;
+}
+
+.absolute{
+   position: absolute;
+}
+
+.primary-color-action{
+   background: linear-gradient(130deg, rgba(91,191,91,1) 0%, rgba(72,190,72,1) 45%, rgba(39,171,59,1) 100%);
+   border: transparent;
+   color: white;
+}
+
+.row.hero-text.d-flex.align-self-center {
+   height: 100vh;
+   background: radial-gradient(circle, rgba(66,66,66,0.2665441176470589) 0%, rgba(72,190,72,0) 49%, rgba(45,45,45,0.6615021008403361) 100%);
+   color: white !important;
+}
+
+.navbar{
+   padding: .4rem 0 !important;
+}
+
+@media screen and(max-width: 991px){
+   .navbar{
+      padding: none;
+   }
+}
+
+li.nav-item{
+   padding-left: .7rem;
+   padding-right: .7rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+   color: white;
+   font-weight: 800;
+   text-transform: uppercase;
+}
+
+h2.hero-text{
+   font-size: 10vw;
+}
+
+.place-prefix{
+   margin-left: 5rem;
+}
+
+a .place-prefix {
+   color: white;
+   text-decoration: none;
+}
+.place-prefix::after{
+   position: absolute;
+   content: '';
+   width: 3px;
+   height: 24px;
+   margin-top: 1.5rem;
+   margin-left: -1rem;
+   background: white;
+}
+
+@media screen and (max-width: 991px){
+   h2.hero-text{
+      margin-top: 5rem;
+   }
+   .place-prefix{
+      margin-left: 0rem;
+   }
+}
+
+.background-hero{
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+.background-hero .container-fluid{
+   min-height: 100vh;
+}
+
+.search-nav-box{
+   background: transparent;
+   border: 2px solid white;
+}
+
+.search-nav-box::before{
+   position: absolute;
+   content: 'f002';
+   left: 0;
+   bottom: 0;
+}
+
+.icon-box i{
+   font-size: 1.8rem;
+}
+
+@media screen and (min-width: 992px){
+   .card-col{
+      margin-top: -8rem;
+   }   
+}
+
+
+
+
+.card{
+   cursor: pointer;
+}
+
+.card .form-control{
+   background: rgba(255, 255, 255, 0.425);
+   color: white;
+   border: transparent;
+}
+
+.card .form-control option{
+   color: black;
+}
+
+.card-transparent{
+   background: rgba(255, 255, 255, 0.459);
+   border: transparent;
+}
+
+
+@media screen and (max-width: 991px){
+   .bg-transparent{
+      background: white !important;
+      color: grey !important;
+      position: relative !important;
+      z-index: 99;
+   }
+
+   .navbar-light .navbar-nav .nav-link{
+      color: grey;
+      font-weight: 800;
+      text-transform: uppercase;
+   }
+
+   .card{
+      color: black !important;
+   }
+
+   .card.card-transparent .card-body.text-white{
+      color: grey !important;
+   }
+
+   .card .bg-transparent{
+      background: white;
+   }
+
+   .card .form-control{
+      background: rgba(255, 255, 255, 0.425);
+      color: rgb(44, 44, 44);
+      border: transparent;
+   }
+   
+   .card .form-control option{
+      color: black;
+   }
+}
+
+@media screen and (min-width: 992px){
+
+}

@@ -65,6 +65,10 @@ a .place-prefix {
    width: 80%;
 }
 
+.card-col{
+   margin-top: -8rem;
+}  
+
 @media screen and (max-width: 991px){
    .navbar{
       padding-right: 1rem !important;
@@ -77,6 +81,17 @@ a .place-prefix {
    .place-prefix{
       margin-left: 0rem;
    }
+   .card-col{
+      margin-top: 2rem;
+   }
+   .card.card-transparent{
+      background-color: grey;
+      margin: .3rem;
+   }
+   .card.card-body .box-option h4{
+      color: white;
+   }
+
 }
 
 .background-hero{

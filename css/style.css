@@ -24,6 +24,12 @@
    color: white;
 }
 
+.primary-color-nav{
+   background: linear-gradient(140deg, rgb(79 169 79) 0%, rgb(83 177 83)45%, rgb(71, 177, 86) 100%);;
+   border: transparent;
+   color: white;
+}
+
 .row.hero-text {
    height: 100vh;
    background: radial-gradient(circle, rgba(66,66,66,0.2665441176470589) 0%, rgba(72,190,72,0) 49%, rgba(45,45,45,0.6615021008403361) 100%);

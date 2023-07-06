@@ -1,6 +1,8 @@
 .navbar{
    z-index: 9;
 }
+
+
 .bg-transparent{
    background: transparent;
 }
@@ -69,30 +71,6 @@ a .place-prefix {
    margin-top: -8rem;
 }  
 
-@media screen and (max-width: 991px){
-   .navbar{
-      padding-right: 1rem !important;
-      padding-left: 1rem !important;
-   }
-   h2.hero-text{
-      margin-top: 5rem;
-      font-size: 18vw;
-   }
-   .place-prefix{
-      margin-left: 0rem;
-   }
-   .card-col{
-      margin-top: 2rem;
-   }
-   .card.card-transparent{
-      background-color: grey;
-      margin: .3rem;
-   }
-   .card.card-body .box-option h4{
-      color: white;
-   }
-
-}
 
 .background-hero{
    height: 100vh;
@@ -125,24 +103,10 @@ a .place-prefix {
    bottom: 0;
 }
 
-@media screen and (max-width: 991px){
-   .search-nav-box.form-control{
-      color: grey !important;
-      border: 2px solid grey;
-   }
-   .search-nav-box::placeholder{
-      color: grey;
-   }   
-   .card-transparent{
-      background: grey;
-   }
-}
 
 .icon-box i{
    font-size: 1.8rem;
 }
-
-
 
 
 
@@ -166,7 +130,28 @@ a .place-prefix {
 }
 
 
+/* CSS MOBILE SCREEN PROPERTIES */
 @media screen and (max-width: 991px){
+   /* NAVBAR CSS */
+   .navbar{
+      padding-right: 1rem !important;
+      padding-left: 1rem !important;
+   }
+
+   .navbar-light .navbar-nav .nav-link{
+      color: rgb(255, 255, 255);
+      font-weight: 800;
+      text-transform: uppercase;
+   }
+   .search-nav-box.form-control{
+      color: grey !important;
+      border: 2px solid grey;
+   }
+   .search-nav-box::placeholder{
+      color: grey;
+   }   
+
+   /* JUMBOTRON SECTION  */
    .background-hero{
       margin-top: 0px;
    }
@@ -177,23 +162,31 @@ a .place-prefix {
       width: 100%;
       text-align: center;
    }
-
-   .navbar-light .navbar-nav .nav-link{
-      color: rgb(255, 255, 255);
-      font-weight: 800;
-      text-transform: uppercase;
+   h2.hero-text{
+      margin-top: 5rem;
+      font-size: 18vw;
    }
+   .place-prefix{
+      margin-left: 0rem;
+   }
+
+   .card-col{
+      margin-top: 2rem;
+   }
+   .card.card-transparent{
+      background-color: grey;
+      margin: .3rem;
+   }
+   .col-card-bg{
+      background-color: grey;
+   }
+   .card.card-body .box-option h4{
+      color: white;
+   }
+
 
    .card{
       color: black !important;
-   }
-
-   .card.card-transparent .card-body.text-white{
-      color: grey !important;
-   }
-
-   .card .bg-transparent{
-      background: rgb(170, 170, 170);
    }
 
    .card .form-control{
@@ -201,8 +194,16 @@ a .place-prefix {
       color: rgb(44, 44, 44);
       border: transparent;
    }
-   
+
    .card .form-control option{
       color: black;
+   }   
+
+   .card.card-transparent .card-body.text-white{
+      color: rgb(255, 255, 255) !important;
    }
+
+
+
+
 }

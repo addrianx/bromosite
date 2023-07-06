@@ -149,13 +149,7 @@ a .place-prefix {
       font-weight: 800;
       text-transform: uppercase;
    }
-   .search-nav-box.form-control{
-      color: grey !important;
-      border: 2px solid grey;
-   }
-   .search-nav-box::placeholder{
-      color: grey;
-   }   
+
 
    /* JUMBOTRON SECTION  */
    .background-hero{

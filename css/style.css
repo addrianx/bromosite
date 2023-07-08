@@ -19,13 +19,13 @@
 }
 
 .primary-color-action{
-   background: linear-gradient(130deg, rgba(91,191,91,1) 0%, rgba(72,190,72,1) 45%, rgba(39,171,59,1) 100%);
+   background: #C19E89;
    border: transparent;
    color: white;
 }
 
 .primary-color-nav{
-   background: linear-gradient(140deg, rgb(79 169 79) 0%, rgb(83 177 83)45%, rgb(71, 177, 86) 100%);;
+   background: #C19E89;
    border: transparent;
    color: white;
 }
